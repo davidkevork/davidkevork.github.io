@@ -1,0 +1,117 @@
+export interface ExperienceEntry {
+  company: string;
+  role: string;
+  duration: string;
+  responsibilities: string[];
+  skills: string[];
+}
+
+export const experiences: ExperienceEntry[] = [
+  {
+    company: "InDebted",
+    role: "Software Engineer",
+    duration: "Nov 2024 - Present",
+    responsibilities: [
+      "Introduce OXXO cash-voucher payments, unlocking LATAM pay-in-cash options and expanding accepted payment methods.",
+      "Prepared the platform for its first Middle-East rollout (UAE), delivering localisation and compliance updates that enabled collections to launch on schedule without service disruption.",
+      "Drove the Payment Arrangement initiative from the ground up: facilitated event-storming sessions with stakeholders, define the domain model, and shipped the MVP to production.",
+      "Developed automated safeguards that prevent customer overpayments, reducing refund incidents and support load.",
+      "Played a key role in triaging and resolving support tickets and production incidents, clearing the queue quickly so teammates could continue roadmap work without disruption.",
+      "Optimised cloud spend by securing RDS Reserved Instances for high-usage databases and implemented S3 lifecycle archiving for infrequently accessed objects, cutting storage and compute costs.",
+    ],
+    skills: [
+      "Go (Programming Language)",
+      "PostgreSQL",
+      "Amazon Dynamodb",
+      "React.js",
+      "TypeScript",
+      "Terraform",
+      "AWS Lambda",
+      "Amazon Simple Notification Service (SNS)",
+      "Amazon SQS",
+      "Amazon Relational Database Service (RDS)",
+    ],
+  },
+  {
+    company: "Nimo Industries",
+    role: "Software Engineer",
+    duration: "Jul 2024 - Nov 2024 (4 months)",
+    responsibilities: [
+      "Integrate with NextGen broker system that automatically pulls external loans and stores them in Nimo’s applications. This solution streamlined the loan application process, leading to a partnership with Resimac.",
+      "Fixed penetration testing issues, improving the security of Nimo’s systems and enhancing the company’s reputation with partners.",
+      "Introduced TypeScript to the development team, enhancing code quality and maintainability, and encouraged a stronger peer review culture to improve collaboration and code reliability.",
+      "Worked on the frontend using React.js, building multiple features and resolving various issues to improve the user experience and overall application stability.",
+    ],
+    skills: [
+      "Amazon Web Services (AWS)",
+      "nodejs",
+      "Amazon Dynamodb",
+      "AWS Lambda",
+      "React.js",
+      "Amazon Relational Database Service (RDS)",
+      "WAF",
+    ],
+  },
+  {
+    company: "Fidel API",
+    role: "Software Engineer",
+    duration: "Jun 2019 - May 2024 (5 years)",
+    responsibilities: [
+      "Implemented MasterCard and Visa bulk card enrollment system.",
+      "Migrate the offer qualification engine from the old monolith system to a new microservice system.",
+      "Implemented reimbursement API allows developers to buy Fidel API Credits to issue statement credit towards a linked card across Visa, Mastercard and Amex in under 72 hours. Implemented automatic reimbursement within Fidel's Offers API qualification engine.",
+      "Implemented a new in-house billing system that provides more flexibility to the Sales and CX teams, that adds support to future product pricing definitions and is aligned with the new contract agreements.",
+      "Planned and implemented a crypto connection system inside Fidel API SDK that allows customers to connect using their crypto wallets.",
+      "Implemented CI/CD pipeline that allows for automated versioning of repositories.",
+      "Implemented Cypress testing package that helps QA testers write integration tests in a simpler and shorter time.",
+      "Implemented multiple integration tests across multiple microservices and dashboard systems to help detect issues and help keep the system running bug-free.",
+      "Implemented stress testing tools to help QA run stress tests for microservices.",
+      "Acted as a QA, manually tested microservices, ran stress tests, and created and maintained integration tests.",
+      "Helped in the interviewing process by reviewing candidates' implementations and participating in hiring interviews.",
+    ],
+    skills: [
+      "TypeScript",
+      "serverless",
+      "AWS Lambda",
+      "AWS CloudFormation",
+      "Amazon S3",
+      "Amazon CloudWatch",
+      "Continuous Integration and Continuous Delivery (CI/CD)",
+      "Stack",
+      "JavaScript",
+      "Software Design",
+      "Amazon SQS",
+      "Communication",
+      "Terraform",
+      "Amazon Dynamodb",
+      "AWS EventBridge",
+      "REST APIs",
+      "Amazon Relational Database Service (RDS)",
+      "Test Automation",
+      "Node.js",
+      "React.js",
+    ],
+  },
+  {
+    company: "SmartCash",
+    role: "Web Developer",
+    duration: "Sep 2017 - May 2019 (1 year 9 months)",
+    responsibilities: [
+      "Undertake the development and upkeep of SmartCard's card and business websites.",
+      "Implement new functionalities and maintain unit tests for SmartCard's API.",
+      "Create and maintain libraries, including smartcashjs-lib, smartcashj, paperwallet, and brainwallet.",
+    ],
+    skills: [
+      "TypeScript",
+      "AWS Lambda",
+      "Stack",
+      "Jest",
+      "JavaScript",
+      "Amazon Dynamodb",
+      "REST APIs",
+      "Test Automation",
+      "Node.js",
+      "React.js",
+    ],
+  },
+];
